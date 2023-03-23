@@ -43,7 +43,7 @@
   
   h1 {
     display: block;
-    font-size: 50px;
+    font-size: 30px;
     margin: 20px;
     border: 30px;
     text-align: center;
@@ -109,14 +109,24 @@ background-color: #efa7d7;
     text-align: center;
   }
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
+ h1 {
+  font-size: 20px;
+ }
+
+ .counter {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ }
   .counter-btn {
     display: flex;
   flex-direction: row;
   justify-content: space-between;
   }
-  input-range {
-    width: 30px;
+
+  .input-range {
+    width: 50%;
   }
 
   body {
@@ -124,5 +134,21 @@ background-color: #efa7d7;
     font-size: 18px;
   }
 }
-  
+
+@media (max-width: 480px) {
+  body { 
+   display: block;
+  }
+}
+
+.input-range {
+    width: 60%;
+  }
+
+.counter {
+  margin: 25px 25px;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
   </style>

@@ -19,7 +19,7 @@
       text-align: center;
       font-family: sans-serif;
       font-weight: 900;
-      font-size: 50px;
+      font-size: 30px;
       
   }
   
@@ -48,7 +48,11 @@
     background-color: grey;
   }
 
-  @media screen and (max-width: 480px) {
+  @media  (max-width: 480px) {
+
+    .Nav-bar {
+      text-align: center;
+    }
 
     .router-link {
         text-align: center;
